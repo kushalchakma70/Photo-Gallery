@@ -4,9 +4,7 @@ include './db.php';
 
 if($_SERVER['REQUEST_METHOD'] === "POST"){
     $title = $_POST['title'];
-    // echo "<pre>";
-    // print_r($_FILES['image']);
-    // echo "</pre>";
+
     $image = $_FILES['image'];
 
     // Check if the image uploaded
